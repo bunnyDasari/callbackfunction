@@ -1,23 +1,23 @@
-//**function displayGreeting(displayName) { //passing the function as arguments
-// console.log("hello");
-// displayName(); //calling the function
-//console.log("good mnrg");
-//}
-//displayGreeting(function() {
-//console.log("Rohan");
-//});
+function displayGreeting(displayName) { //passing the function as arguments
+console.log("hello");
+displayName(); //calling the function
+console.log("good mnrg");
+}
+displayGreeting(function() {
+console.log("Rohan");
+});
 
-//function displayRahul() {
-//console.log("hi hello");
-//}
-//displayGreeting(displayRahul); //passing the function as the value
+function displayRahul() {
+console.log("hi hello");
+}
+displayGreeting(displayRahul); //passing the function as the value
 
 
 
-//let displayRam = function(){
-//console.log("Namaste");
-//}
-//displayGreeting(displayRam);
+let displayRam = function(){
+console.log("Namaste");
+}
+displayGreeting(displayRam);
 
 
 
